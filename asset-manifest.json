@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SiddhantShah04/react-blog/static/css/main.77ba3d58.chunk.css",
+    "main.js": "/SiddhantShah04/react-blog/static/js/main.7241ed60.chunk.js",
+    "main.js.map": "/SiddhantShah04/react-blog/static/js/main.7241ed60.chunk.js.map",
+    "runtime-main.js": "/SiddhantShah04/react-blog/static/js/runtime-main.c35619b9.js",
+    "runtime-main.js.map": "/SiddhantShah04/react-blog/static/js/runtime-main.c35619b9.js.map",
+    "static/js/2.29b6d6a7.chunk.js": "/SiddhantShah04/react-blog/static/js/2.29b6d6a7.chunk.js",
+    "static/js/2.29b6d6a7.chunk.js.map": "/SiddhantShah04/react-blog/static/js/2.29b6d6a7.chunk.js.map",
+    "static/js/3.028bdbdf.chunk.js": "/SiddhantShah04/react-blog/static/js/3.028bdbdf.chunk.js",
+    "static/js/3.028bdbdf.chunk.js.map": "/SiddhantShah04/react-blog/static/js/3.028bdbdf.chunk.js.map",
+    "index.html": "/SiddhantShah04/react-blog/index.html",
+    "static/css/main.77ba3d58.chunk.css.map": "/SiddhantShah04/react-blog/static/css/main.77ba3d58.chunk.css.map",
+    "static/js/2.29b6d6a7.chunk.js.LICENSE.txt": "/SiddhantShah04/react-blog/static/js/2.29b6d6a7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c35619b9.js",
+    "static/js/2.29b6d6a7.chunk.js",
+    "static/css/main.77ba3d58.chunk.css",
+    "static/js/main.7241ed60.chunk.js"
+  ]
+}
