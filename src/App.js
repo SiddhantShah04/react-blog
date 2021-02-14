@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { useState, useEffect  } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
+
+import './App.css';
+import Header from './components/header'
+import Blog from "./components/blog";
+import Login from "./components/login";
+import Register from "./components/register";
+import CreateBlog from "./components/createblog"
+import UpateBlog from "./components/updateBlog";
+
+const App = ()=>{
+  
+  return(
+    <Router>
+      <div>
+        <Switch>
+            <Route path="/" exact component={Blog} />
+            <Route path="/login" exact component={Login} />
+            <Route path="/register" exact component={Register} />
+            <Route path="/createblog" exact component={CreateBlog} />
+            <Route path="/updateblog" exact component={UpateBlog} />
+
+        </Switch>
+      </div>
+    </Router>
+  )
 }
 
 export default App;
